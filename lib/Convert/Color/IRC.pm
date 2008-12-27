@@ -1,5 +1,5 @@
-# $Revision: 0.03 $
-# $Date: Thr Dec 25 12:00:00 2008 -0500 $
+# $Revision: 0.04 $
+# $Date: Sat Dec 27 10:05:00 2008 -0500 $
 # $Source: lib/Convert/Color/IRC.pm $
 
 package Convert::Color::IRC;
@@ -13,7 +13,7 @@ use utf8;
 use Sub::Exporter -setup =>
     { exports => [qw(name_by_irc_color rgb_by_irc_color)] };
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 my %mapping = (
 	0 => ['white' => 'FFFFFF'],
@@ -68,7 +68,7 @@ Convert::Color::IRC - Convert IRC colors to names or rgb hex codes.
 
 =head1 VERSION
 
-Version 0.01
+Version 0.04
 
 =head1 SYNOPSIS
 
@@ -151,6 +151,12 @@ automatically be notified of progress on your bug as I make changes.
 =head1 AUTHOR
 
 Jason Felds, C<< <wolfman.ncsu2000 at gmail.com> >>
+
+=head1 ACKKNOWLEDGMENTS
+
+A big thank you must be given to the CPAN Testers for catching
+._ files in my archive, and the Freenode #Perl room for
+helping me handle this situation.
 
 =head1 SUPPORT
 

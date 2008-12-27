@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Convert-Color-IRC
-version:             0.03
+version:             0.04
 abstract:            Convert IRC colors to names or rgb hex codes.
 license:             perl
 author:              
