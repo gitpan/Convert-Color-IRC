@@ -1,9 +1,8 @@
 Convert-Color-IRC
 
-This module is a set of funtions that allows one to
-take a traditional IRC color number and return either
-its hex code or name.  Note that this module assumes
-the default color choices for IRC programs.
+This module uses LeoNerd's Convert::Color interface
+to allow converting the IRC's default colors into
+other formats.
 
 INSTALLATION
 
